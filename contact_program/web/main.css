@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* 메인화면 디자인  */
+#login {
+		text-align: center;
+		background-image: url("iphone.jpg");
+		background-size: 100%;
+}
+#header {
+		background-color: orange;
+		height: 100px;
+}
+#nav {
+		background-color: #5a0808;
+		color: orange;
+		width: 150px;
+		height: 300px;
+		float: left;
+		margin: 0px;
+		padding: 5px;
+		border-top: 5px;
+		text-decoration: none;
+}
+#section {
+		height: 300px;
+		width: 80%;
+		float: left;
+		padding: 5px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+}
+#footer {
+		background-color: gray;
+		color: orange;
+		height: 100px;
+		clear: both;
+}
+#header, #nav, #section, #footer { text-align: center; }
+#header, #footer { line-height: 100px; }
+#nav { line-height: 55px; }
+#section { line-height: 30px; }
+
+/* 링크 관련 효과 */
+a:visited {
+	color: white;
+	text-decoration: none;
+}	
+a:link {
+	color: orange;
+	text-decoration: none;
+}
+a:hover {
+	background-color: graytext;
+	border: 10px;
+	border-radius: 5px;
+}
